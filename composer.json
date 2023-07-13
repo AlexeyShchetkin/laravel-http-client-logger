@@ -1,0 +1,33 @@
+{
+  "name": "alexeyshchetkin/laravel-http-client-logger",
+  "version": "1.0",
+  "type": "library",
+  "require": {
+    "php": "^7|^8",
+    "illuminate/support": ">=8"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AlexeyShchetkin\\LaravelHttpClientLogger\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlexeyShchetkin\\LaravelHttpClientLogger\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexey Shchetkin",
+      "email": "alexey.shchetkin@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AlexeyShchetkin\\LaravelHttpClientLogger\\Providers\\HttpClientLoggerServiceProvider"
+      ]
+    }
+  }
+}
